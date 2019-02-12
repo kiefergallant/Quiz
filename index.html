@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+
+
+
+
+  <form name='formOne'class="formOne" action="index.html" method="post">
+
+    <p>Question 1: What is 2 + 2 ?</p>
+
+    <select class="firstQuestion" name="firstQuestion">
+      <option value="one">1</option>
+      <option value="two">2</option>
+      <option value="one hundred">100</option>
+      <option value="four">4</option>
+    </select>
+
+    <input id='submitOne' type="submit" name="submitOne" value="Submit">
+
+  </form>
+
+
+
+
+
+
+  <form style ='display:none' id='formTwo' name ='formTwo'  action="index.html" method="post">
+
+    <p>Question 2: What color is the sky ?</p>
+
+    <label for="red">Red</label>
+    <input type="checkbox" name="red" value="">
+
+    <label for="blue">Blue</label>
+    <input type="checkbox" name="blue" value="" id='blue' >
+
+    <label for="green">Green</label>
+    <input type="checkbox" name="green" value="">
+
+    <label for="black">Black</label>
+    <input type="checkbox" name="black" value="" id='black'>
+
+    <input id='submitTwo' type="submit" name="submitTwo" value="Submit">
+
+  </form>
+
+
+
+
+
+
+
+
+
+  <form style ='display:none' name = 'formThree' action="index.html" method="post">
+    <p>Question 3: Is the earth flat?</p>
+
+    <label for="yes">Yes</label>
+    <input id ='yes' type="radio" name="questionThree" value="yes">
+
+    <label for="no">No</label>
+    <input id="no" type="radio" name="questionThree" value="no">
+
+    <input id = 'submitThree'type="submit" name="submitThree" value="Submit">
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+  <form style ='display:none' name="formFour"  action="index.html" method="post">
+
+    <p>Question 4: What is (2x2)^(3)</p>
+    <label for="questionFour">Enter Answer Here</label>
+    <input type="number" name="questionFour" value="">
+    <input type="submit" id ='submitFour' name="submitFour" value="Submit">
+  </form>
+
+
+
+
+
+
+
+
+
+  <form style ='display:none' name='formFive' action="index.html" method="post">
+
+
+    <p>Question 5: Who is the current president of the USA? </p>
+    <input type="text" name="questionFive" value="">
+    <input type="submit" id='submitFive' name="submitFive" value="Submit">
+
+  </form>
+
+
+
+
+
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
